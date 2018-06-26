@@ -1,4 +1,4 @@
-<ion-view title="Special Offers" hide-back-button="true" class="card-bg">
+<ion-view title="Personal Offers" hide-back-button="true" class="card-bg">
 
     <ion-nav-buttons side="left">
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
@@ -33,6 +33,7 @@
                 <div class="item item-body">
                     <img ng-if="offer.image" ng-src="{{offer.image}}">
                     <p>{{offer.description}}</p>
+                    <p>{{offer.discountPoint}}</p>
                 </div>
             </a>
         </div>
