@@ -7,6 +7,7 @@ var express = require('express'),
     winston = require('winston'),
     sqlinit = require('./server/sqlinit'),
 
+    // Test
     // App modules
     offers = require('./server/offers'),
     products = require('./server/products'),
