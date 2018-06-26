@@ -229,7 +229,7 @@ a {
 
 .profile .block h3 {
     font-family: "Source Sans Light" !important;
-    color: #805959 !important;
+    color: ##a33428 !important;
     margin: 8px;
     font-size: 20px;
 }
@@ -443,7 +443,8 @@ a {
 }
 
 .badge {
-    background-color: #805959;
+    background-color: ##a33428
+;
 }
 
 .activity-pic {
