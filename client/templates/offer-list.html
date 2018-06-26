@@ -29,11 +29,12 @@
                     <h2>{{offer.name}}</h2>
 
                     <p>Expires on {{offer.enddate | date:'EEEE, MMMM d y'}}</p>
+                    <p>{{offer.discountPoint}}</p>
                 </div>
                 <div class="item item-body">
                     <img ng-if="offer.image" ng-src="{{offer.image}}">
                     <p>{{offer.description}}</p>
-                    <p>{{offer.discountPoint}}</p>
+
                 </div>
             </a>
         </div>
